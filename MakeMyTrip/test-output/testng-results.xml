@@ -1,0 +1,962 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="13" passed="12" failed="1" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Browser should be Launched and url is navigated]]>
+    </line>
+    <line>
+      <![CDATA[pop is closed]]>
+    </line>
+    <line>
+      <![CDATA[user is able to click on Holiday Packages link]]>
+    </line>
+    <line>
+      <![CDATA[holidays package is opend]]>
+    </line>
+    <line>
+      <![CDATA[User is on the Holidays package page]]>
+    </line>
+    <line>
+      <![CDATA[User is able enter the source in from Text Field]]>
+    </line>
+    <line>
+      <![CDATA[User is able enter the destination in from Text Field]]>
+    </line>
+    <line>
+      <![CDATA[date is selected from the excel]]>
+    </line>
+    <line>
+      <![CDATA[clicked on Search button successfully]]>
+    </line>
+    <line>
+      <![CDATA[Assistance popup is closed]]>
+    </line>
+    <line>
+      <![CDATA[clicked on the image of package]]>
+    </line>
+    <line>
+      <![CDATA[Sale popup is closed]]>
+    </line>
+    <line>
+      <![CDATA[selected package with flight]]>
+    </line>
+    <line>
+      <![CDATA[package details page is opened..]]>
+    </line>
+    <line>
+      <![CDATA[clicking on the flights and transfer link]]>
+    </line>
+    <line>
+      <![CDATA[removing the flight]]>
+    </line>
+    <line>
+      <![CDATA[updating the package]]>
+    </line>
+    <line>
+      <![CDATA[flight is removed from the package]]>
+    </line>
+    <line>
+      <![CDATA[Browser should be Launched and url is navigated]]>
+    </line>
+    <line>
+      <![CDATA[pop is closed]]>
+    </line>
+    <line>
+      <![CDATA[user is able to click on Holiday Packages link]]>
+    </line>
+    <line>
+      <![CDATA[holidays package is opend]]>
+    </line>
+    <line>
+      <![CDATA[User is on the Holidays package page]]>
+    </line>
+    <line>
+      <![CDATA[User is able enter the source in from Text Field]]>
+    </line>
+    <line>
+      <![CDATA[User is able enter the destination in from Text Field]]>
+    </line>
+    <line>
+      <![CDATA[date is selected from the excel]]>
+    </line>
+    <line>
+      <![CDATA[clicked on Search button successfully]]>
+    </line>
+    <line>
+      <![CDATA[Assistance popup is closed]]>
+    </line>
+    <line>
+      <![CDATA[clicked on the image of package]]>
+    </line>
+    <line>
+      <![CDATA[Sale popup is closed]]>
+    </line>
+    <line>
+      <![CDATA[selected package with flight]]>
+    </line>
+    <line>
+      <![CDATA[package details page is opened..]]>
+    </line>
+    <line>
+      <![CDATA[clicking on the hotels]]>
+    </line>
+    <line>
+      <![CDATA[Details of the room were displayed]]>
+    </line>
+    <line>
+      <![CDATA[Browser should be Launched and url is navigated]]>
+    </line>
+    <line>
+      <![CDATA[pop is closed]]>
+    </line>
+    <line>
+      <![CDATA[user is able to click on Holiday Packages link]]>
+    </line>
+    <line>
+      <![CDATA[holidays package is opend]]>
+    </line>
+    <line>
+      <![CDATA[User is on the Holidays package page]]>
+    </line>
+    <line>
+      <![CDATA[South India Packages are displayed]]>
+    </line>
+    <line>
+      <![CDATA[Browser should be Launched and url is navigated]]>
+    </line>
+    <line>
+      <![CDATA[pop is closed]]>
+    </line>
+    <line>
+      <![CDATA[user is able to click on Holiday Packages link]]>
+    </line>
+    <line>
+      <![CDATA[holidays package is opend]]>
+    </line>
+    <line>
+      <![CDATA[User is on the Holidays package page]]>
+    </line>
+    <line>
+      <![CDATA[Goa Packages are displayed]]>
+    </line>
+    <line>
+      <![CDATA[Browser should be Launched and url is navigated]]>
+    </line>
+    <line>
+      <![CDATA[pop is closed]]>
+    </line>
+    <line>
+      <![CDATA[user is able to click on Holiday Packages link]]>
+    </line>
+    <line>
+      <![CDATA[holidays package is opend]]>
+    </line>
+    <line>
+      <![CDATA[User is on the Holidays package page]]>
+    </line>
+    <line>
+      <![CDATA[Kerala Packages are displayed]]>
+    </line>
+    <line>
+      <![CDATA[Browser should be Launched and url is navigated]]>
+    </line>
+    <line>
+      <![CDATA[pop is closed]]>
+    </line>
+    <line>
+      <![CDATA[user is able to click on Holiday Packages link]]>
+    </line>
+    <line>
+      <![CDATA[holidays package is opend]]>
+    </line>
+    <line>
+      <![CDATA[User is on the Holidays package page]]>
+    </line>
+    <line>
+      <![CDATA[User is able enter the source in from Text Field]]>
+    </line>
+    <line>
+      <![CDATA[User is able enter the destination in from Text Field]]>
+    </line>
+    <line>
+      <![CDATA[date is selected from the excel]]>
+    </line>
+    <line>
+      <![CDATA[clicked on Search button successfully]]>
+    </line>
+    <line>
+      <![CDATA[with flight filter is applied]]>
+    </line>
+    <line>
+      <![CDATA[price range is selected from the package]]>
+    </line>
+    <line>
+      <![CDATA[filters are applied]]>
+    </line>
+    <line>
+      <![CDATA[Browser should be Launched and url is navigated]]>
+    </line>
+    <line>
+      <![CDATA[pop is closed]]>
+    </line>
+    <line>
+      <![CDATA[user is able to click on Holiday Packages link]]>
+    </line>
+    <line>
+      <![CDATA[holidays package is opend]]>
+    </line>
+    <line>
+      <![CDATA[User is on the Holidays package page]]>
+    </line>
+    <line>
+      <![CDATA[User is able enter the source in from Text Field]]>
+    </line>
+    <line>
+      <![CDATA[User is able enter the destination in from Text Field]]>
+    </line>
+    <line>
+      <![CDATA[date is selected from the excel]]>
+    </line>
+    <line>
+      <![CDATA[clicked on Search button successfully]]>
+    </line>
+    <line>
+      <![CDATA[selected package with flight]]>
+    </line>
+    <line>
+      <![CDATA[popup is handled]]>
+    </line>
+    <line>
+      <![CDATA[Browser should be closed]]>
+    </line>
+    <line>
+      <![CDATA[Browser should be Launched and url is navigated]]>
+    </line>
+    <line>
+      <![CDATA[pop is closed]]>
+    </line>
+    <line>
+      <![CDATA[user is able to click on Holiday Packages link]]>
+    </line>
+    <line>
+      <![CDATA[holidays package is opend]]>
+    </line>
+    <line>
+      <![CDATA[User is on the Holidays package page]]>
+    </line>
+    <line>
+      <![CDATA[User is able enter the source in from Text Field]]>
+    </line>
+    <line>
+      <![CDATA[User is able enter the destination in from Text Field]]>
+    </line>
+    <line>
+      <![CDATA[date is selected from the excel]]>
+    </line>
+    <line>
+      <![CDATA[clicked on Search button successfully]]>
+    </line>
+    <line>
+      <![CDATA[selected package with flight]]>
+    </line>
+    <line>
+      <![CDATA[payment Button is clicked]]>
+    </line>
+    <line>
+      <![CDATA[traveller details were added successfully]]>
+    </line>
+    <line>
+      <![CDATA[Browser should be Launched and url is navigated]]>
+    </line>
+    <line>
+      <![CDATA[pop is closed]]>
+    </line>
+    <line>
+      <![CDATA[user is able to click on Holiday Packages link]]>
+    </line>
+    <line>
+      <![CDATA[holidays package is opend]]>
+    </line>
+    <line>
+      <![CDATA[User is on the Holidays package page]]>
+    </line>
+    <line>
+      <![CDATA[reached the Dubai package]]>
+    </line>
+    <line>
+      <![CDATA[Browser should be Launched and url is navigated]]>
+    </line>
+    <line>
+      <![CDATA[pop is closed]]>
+    </line>
+    <line>
+      <![CDATA[user is able to click on Holiday Packages link]]>
+    </line>
+    <line>
+      <![CDATA[holidays package is opend]]>
+    </line>
+    <line>
+      <![CDATA[User is on the Holidays package page]]>
+    </line>
+    <line>
+      <![CDATA[User is clicked on Book Explorer]]>
+    </line>
+    <line>
+      <![CDATA[Browser should be Launched and url is navigated]]>
+    </line>
+    <line>
+      <![CDATA[pop is closed]]>
+    </line>
+    <line>
+      <![CDATA[user is able to click on Holiday Packages link]]>
+    </line>
+    <line>
+      <![CDATA[holidays package is opend]]>
+    </line>
+    <line>
+      <![CDATA[User is on the Holidays package page]]>
+    </line>
+    <line>
+      <![CDATA[User is clicked on Cruise Explorer]]>
+    </line>
+    <line>
+      <![CDATA[Browser should be Launched and url is navigated]]>
+    </line>
+    <line>
+      <![CDATA[pop is closed]]>
+    </line>
+    <line>
+      <![CDATA[user is able to click on Holiday Packages link]]>
+    </line>
+    <line>
+      <![CDATA[holidays package is opend]]>
+    </line>
+    <line>
+      <![CDATA[User is on the Holidays package page]]>
+    </line>
+    <line>
+      <![CDATA[User is clicked on Honeymoon Explorer]]>
+    </line>
+    <line>
+      <![CDATA[Browser should be Launched and url is navigated]]>
+    </line>
+    <line>
+      <![CDATA[pop is closed]]>
+    </line>
+    <line>
+      <![CDATA[user is able to click on Holiday Packages link]]>
+    </line>
+    <line>
+      <![CDATA[holidays package is opend]]>
+    </line>
+    <line>
+      <![CDATA[User is on the Holidays package page]]>
+    </line>
+    <line>
+      <![CDATA[Kerala Packages are displayed]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2024-11-13T14:47:43 IST" name="Default suite" finished-at="2024-11-13T14:56:33 IST" duration-ms="529771">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.runners.CucumberRunner@38102d01]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2024-11-13T14:47:43 IST" name="Default test" finished-at="2024-11-13T14:56:33 IST" duration-ms="529771">
+      <class name="com.runners.CucumberRunner">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:com.runners.CucumberRunner@38102d01]" started-at="2024-11-13T14:47:43 IST" name="setUpClass" finished-at="2024-11-13T14:47:43 IST" duration-ms="446" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@3897f9ae]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.runners.CucumberRunner@38102d01]" started-at="2024-11-13T14:47:43 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-11-13T14:49:28 IST" duration-ms="104373" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify User ia able to remove flights from their package"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Adding activities to the package"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Browser should be Launched and url is navigated]]>
+            </line>
+            <line>
+              <![CDATA[pop is closed]]>
+            </line>
+            <line>
+              <![CDATA[user is able to click on Holiday Packages link]]>
+            </line>
+            <line>
+              <![CDATA[holidays package is opend]]>
+            </line>
+            <line>
+              <![CDATA[User is on the Holidays package page]]>
+            </line>
+            <line>
+              <![CDATA[User is able enter the source in from Text Field]]>
+            </line>
+            <line>
+              <![CDATA[User is able enter the destination in from Text Field]]>
+            </line>
+            <line>
+              <![CDATA[date is selected from the excel]]>
+            </line>
+            <line>
+              <![CDATA[clicked on Search button successfully]]>
+            </line>
+            <line>
+              <![CDATA[Assistance popup is closed]]>
+            </line>
+            <line>
+              <![CDATA[clicked on the image of package]]>
+            </line>
+            <line>
+              <![CDATA[Sale popup is closed]]>
+            </line>
+            <line>
+              <![CDATA[selected package with flight]]>
+            </line>
+            <line>
+              <![CDATA[package details page is opened..]]>
+            </line>
+            <line>
+              <![CDATA[clicking on the flights and transfer link]]>
+            </line>
+            <line>
+              <![CDATA[removing the flight]]>
+            </line>
+            <line>
+              <![CDATA[updating the package]]>
+            </line>
+            <line>
+              <![CDATA[flight is removed from the package]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.runners.CucumberRunner@38102d01]" started-at="2024-11-13T14:49:28 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-11-13T14:50:58 IST" duration-ms="89774" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify User is able to see the room Details"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Adding activities to the package"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Browser should be Launched and url is navigated]]>
+            </line>
+            <line>
+              <![CDATA[pop is closed]]>
+            </line>
+            <line>
+              <![CDATA[user is able to click on Holiday Packages link]]>
+            </line>
+            <line>
+              <![CDATA[holidays package is opend]]>
+            </line>
+            <line>
+              <![CDATA[User is on the Holidays package page]]>
+            </line>
+            <line>
+              <![CDATA[User is able enter the source in from Text Field]]>
+            </line>
+            <line>
+              <![CDATA[User is able enter the destination in from Text Field]]>
+            </line>
+            <line>
+              <![CDATA[date is selected from the excel]]>
+            </line>
+            <line>
+              <![CDATA[clicked on Search button successfully]]>
+            </line>
+            <line>
+              <![CDATA[Assistance popup is closed]]>
+            </line>
+            <line>
+              <![CDATA[clicked on the image of package]]>
+            </line>
+            <line>
+              <![CDATA[Sale popup is closed]]>
+            </line>
+            <line>
+              <![CDATA[selected package with flight]]>
+            </line>
+            <line>
+              <![CDATA[package details page is opened..]]>
+            </line>
+            <line>
+              <![CDATA[clicking on the hotels]]>
+            </line>
+            <line>
+              <![CDATA[Details of the room were displayed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.runners.CucumberRunner@38102d01]" started-at="2024-11-13T14:50:58 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-11-13T14:51:05 IST" duration-ms="7423" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate user is able to select package location from BookExplorer"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["click BookExplorer"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Browser should be Launched and url is navigated]]>
+            </line>
+            <line>
+              <![CDATA[pop is closed]]>
+            </line>
+            <line>
+              <![CDATA[user is able to click on Holiday Packages link]]>
+            </line>
+            <line>
+              <![CDATA[holidays package is opend]]>
+            </line>
+            <line>
+              <![CDATA[User is on the Holidays package page]]>
+            </line>
+            <line>
+              <![CDATA[South India Packages are displayed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.runners.CucumberRunner@38102d01]" started-at="2024-11-13T14:51:05 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-11-13T14:51:13 IST" duration-ms="7990" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate user is able to select package location from BookExplorer"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["click BookExplorer"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Browser should be Launched and url is navigated]]>
+            </line>
+            <line>
+              <![CDATA[pop is closed]]>
+            </line>
+            <line>
+              <![CDATA[user is able to click on Holiday Packages link]]>
+            </line>
+            <line>
+              <![CDATA[holidays package is opend]]>
+            </line>
+            <line>
+              <![CDATA[User is on the Holidays package page]]>
+            </line>
+            <line>
+              <![CDATA[Goa Packages are displayed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.runners.CucumberRunner@38102d01]" started-at="2024-11-13T14:51:13 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-11-13T14:51:25 IST" duration-ms="11767" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate user is able to select package location from BookExplorer"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["click BookExplorer"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Browser should be Launched and url is navigated]]>
+            </line>
+            <line>
+              <![CDATA[pop is closed]]>
+            </line>
+            <line>
+              <![CDATA[user is able to click on Holiday Packages link]]>
+            </line>
+            <line>
+              <![CDATA[holidays package is opend]]>
+            </line>
+            <line>
+              <![CDATA[User is on the Holidays package page]]>
+            </line>
+            <line>
+              <![CDATA[Kerala Packages are displayed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.runners.CucumberRunner@38102d01]" started-at="2024-11-13T14:51:25 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-11-13T14:51:53 IST" duration-ms="28666" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify User is able to filter the packages"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Filters"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Browser should be Launched and url is navigated]]>
+            </line>
+            <line>
+              <![CDATA[pop is closed]]>
+            </line>
+            <line>
+              <![CDATA[user is able to click on Holiday Packages link]]>
+            </line>
+            <line>
+              <![CDATA[holidays package is opend]]>
+            </line>
+            <line>
+              <![CDATA[User is on the Holidays package page]]>
+            </line>
+            <line>
+              <![CDATA[User is able enter the source in from Text Field]]>
+            </line>
+            <line>
+              <![CDATA[User is able enter the destination in from Text Field]]>
+            </line>
+            <line>
+              <![CDATA[date is selected from the excel]]>
+            </line>
+            <line>
+              <![CDATA[clicked on Search button successfully]]>
+            </line>
+            <line>
+              <![CDATA[with flight filter is applied]]>
+            </line>
+            <line>
+              <![CDATA[price range is selected from the package]]>
+            </line>
+            <line>
+              <![CDATA[filters are applied]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.runners.CucumberRunner@38102d01]" started-at="2024-11-13T14:51:53 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-11-13T14:53:22 IST" duration-ms="88209" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate user is able to click on Holiday packages without flights"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Holiday Packages"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Browser should be Launched and url is navigated]]>
+            </line>
+            <line>
+              <![CDATA[pop is closed]]>
+            </line>
+            <line>
+              <![CDATA[user is able to click on Holiday Packages link]]>
+            </line>
+            <line>
+              <![CDATA[holidays package is opend]]>
+            </line>
+            <line>
+              <![CDATA[User is on the Holidays package page]]>
+            </line>
+            <line>
+              <![CDATA[User is able enter the source in from Text Field]]>
+            </line>
+            <line>
+              <![CDATA[User is able enter the destination in from Text Field]]>
+            </line>
+            <line>
+              <![CDATA[date is selected from the excel]]>
+            </line>
+            <line>
+              <![CDATA[clicked on Search button successfully]]>
+            </line>
+            <line>
+              <![CDATA[selected package with flight]]>
+            </line>
+            <line>
+              <![CDATA[popup is handled]]>
+            </line>
+            <line>
+              <![CDATA[Browser should be closed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.runners.CucumberRunner@38102d01]" started-at="2024-11-13T14:53:22 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-11-13T14:55:12 IST" duration-ms="110699" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate user should be able to proceed to the payment"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Payment"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Browser should be Launched and url is navigated]]>
+            </line>
+            <line>
+              <![CDATA[pop is closed]]>
+            </line>
+            <line>
+              <![CDATA[user is able to click on Holiday Packages link]]>
+            </line>
+            <line>
+              <![CDATA[holidays package is opend]]>
+            </line>
+            <line>
+              <![CDATA[User is on the Holidays package page]]>
+            </line>
+            <line>
+              <![CDATA[User is able enter the source in from Text Field]]>
+            </line>
+            <line>
+              <![CDATA[User is able enter the destination in from Text Field]]>
+            </line>
+            <line>
+              <![CDATA[date is selected from the excel]]>
+            </line>
+            <line>
+              <![CDATA[clicked on Search button successfully]]>
+            </line>
+            <line>
+              <![CDATA[selected package with flight]]>
+            </line>
+            <line>
+              <![CDATA[payment Button is clicked]]>
+            </line>
+            <line>
+              <![CDATA[traveller details were added successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.runners.CucumberRunner@38102d01]" started-at="2024-11-13T14:55:12 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-11-13T14:55:51 IST" duration-ms="38840" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify user is able to see the all details of the packages available by scrolling"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Sample"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertTrue(Assert.java:57)
+at org.testng.Assert.assertTrue(Assert.java:67)
+at com.stepDefinition.Sample.scroll_down_untill_user_is_reached_to_the_details_of_all_packages(Sample.java:56)
+at ✽.scroll down untill user is reached to the details of all packages(file:///C:/Users/Y.Tejaswini/git/repository3/MakeMyTrip/./src/test/resources/featureFiles/Sample.feature:9)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+            <line>
+              <![CDATA[Browser should be Launched and url is navigated]]>
+            </line>
+            <line>
+              <![CDATA[pop is closed]]>
+            </line>
+            <line>
+              <![CDATA[user is able to click on Holiday Packages link]]>
+            </line>
+            <line>
+              <![CDATA[holidays package is opend]]>
+            </line>
+            <line>
+              <![CDATA[User is on the Holidays package page]]>
+            </line>
+            <line>
+              <![CDATA[reached the Dubai package]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.runners.CucumberRunner@38102d01]" started-at="2024-11-13T14:55:51 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-11-13T14:55:59 IST" duration-ms="7773" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify user is able to select the packages from explorer"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Selecting the package"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Browser should be Launched and url is navigated]]>
+            </line>
+            <line>
+              <![CDATA[pop is closed]]>
+            </line>
+            <line>
+              <![CDATA[user is able to click on Holiday Packages link]]>
+            </line>
+            <line>
+              <![CDATA[holidays package is opend]]>
+            </line>
+            <line>
+              <![CDATA[User is on the Holidays package page]]>
+            </line>
+            <line>
+              <![CDATA[User is clicked on Book Explorer]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.runners.CucumberRunner@38102d01]" started-at="2024-11-13T14:55:59 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-11-13T14:56:07 IST" duration-ms="8159" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify user is able to select the packages from explorer"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Selecting the package"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Browser should be Launched and url is navigated]]>
+            </line>
+            <line>
+              <![CDATA[pop is closed]]>
+            </line>
+            <line>
+              <![CDATA[user is able to click on Holiday Packages link]]>
+            </line>
+            <line>
+              <![CDATA[holidays package is opend]]>
+            </line>
+            <line>
+              <![CDATA[User is on the Holidays package page]]>
+            </line>
+            <line>
+              <![CDATA[User is clicked on Cruise Explorer]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.runners.CucumberRunner@38102d01]" started-at="2024-11-13T14:56:07 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-11-13T14:56:23 IST" duration-ms="15812" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify user is able to select the packages from explorer"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Selecting the package"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Browser should be Launched and url is navigated]]>
+            </line>
+            <line>
+              <![CDATA[pop is closed]]>
+            </line>
+            <line>
+              <![CDATA[user is able to click on Holiday Packages link]]>
+            </line>
+            <line>
+              <![CDATA[holidays package is opend]]>
+            </line>
+            <line>
+              <![CDATA[User is on the Holidays package page]]>
+            </line>
+            <line>
+              <![CDATA[User is clicked on Honeymoon Explorer]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.runners.CucumberRunner@38102d01]" started-at="2024-11-13T14:56:23 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-11-13T14:56:32 IST" duration-ms="9076" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify user is able to select the packages from explorer"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Selecting the package"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Browser should be Launched and url is navigated]]>
+            </line>
+            <line>
+              <![CDATA[pop is closed]]>
+            </line>
+            <line>
+              <![CDATA[user is able to click on Holiday Packages link]]>
+            </line>
+            <line>
+              <![CDATA[holidays package is opend]]>
+            </line>
+            <line>
+              <![CDATA[User is on the Holidays package page]]>
+            </line>
+            <line>
+              <![CDATA[Kerala Packages are displayed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.runners.CucumberRunner@38102d01]" started-at="2024-11-13T14:56:32 IST" name="tearDownClass" finished-at="2024-11-13T14:56:33 IST" duration-ms="616" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.runners.CucumberRunner -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

@@ -1,0 +1,365 @@
+<html>
+<head>
+<title>TestNG:  Default test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Default test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>12/1/0</td>
+</tr><tr>
+<td>Started on:</td><td>Wed Nov 13 14:47:43 IST 2024</td>
+</tr>
+<tr><td>Total time:</td><td>529 seconds (529771 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.runners.CucumberRunner.runScenario()'><b>runScenario</b><br>Test class: com.runners.CucumberRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify user is able to see the all details of the packages available by scrolling", "Sample"<br/>
+<a href="#Output-1977035133" onClick='toggleBox("Output-1977035133", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1977035133" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1977035133">
+Browser should be Launched and url is navigated<br/>
+pop is closed<br/>
+user is able to click on Holiday Packages link<br/>
+holidays package is opend<br/>
+User is on the Holidays package page<br/>
+reached the Dubai package<br/>
+</div>
+</td>
+<td><div><pre>java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertTrue(Assert.java:57)
+	at org.testng.Assert.assertTrue(Assert.java:67)
+	at com.stepDefinition.Sample.scroll_down_untill_user_is_reached_to_the_details_of_all_packages(Sample.java:56)
+	at ✽.scroll down untill user is reached to the details of all packages(file:///C:/Users/Y.Tejaswini/git/repository3/MakeMyTrip/./src/test/resources/featureFiles/Sample.feature:9)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1977035133", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1977035133'><pre>java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertTrue(Assert.java:57)
+	at org.testng.Assert.assertTrue(Assert.java:67)
+	at com.stepDefinition.Sample.scroll_down_untill_user_is_reached_to_the_details_of_all_packages(Sample.java:56)
+	at ✽.scroll down untill user is reached to the details of all packages(file:///C:/Users/Y.Tejaswini/git/repository3/MakeMyTrip/./src/test/resources/featureFiles/Sample.feature:9)
+</pre></div></td>
+<td>38</td>
+<td>com.runners.CucumberRunner@38102d01</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.runners.CucumberRunner.runScenario()'><b>runScenario</b><br>Test class: com.runners.CucumberRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate user is able to click on Holiday packages without flights", "Holiday Packages"<br/>
+<a href="#Output-1843794118" onClick='toggleBox("Output-1843794118", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1843794118" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1843794118">
+Browser should be Launched and url is navigated<br/>
+pop is closed<br/>
+user is able to click on Holiday Packages link<br/>
+holidays package is opend<br/>
+User is on the Holidays package page<br/>
+User is able enter the source in from Text Field<br/>
+User is able enter the destination in from Text Field<br/>
+date is selected from the excel<br/>
+clicked on Search button successfully<br/>
+selected package with flight<br/>
+popup is handled<br/>
+Browser should be closed<br/>
+</div>
+</td>
+<td></td>
+<td>88</td>
+<td>com.runners.CucumberRunner@38102d01</td></tr>
+<tr>
+<td title='com.runners.CucumberRunner.runScenario()'><b>runScenario</b><br>Test class: com.runners.CucumberRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify user is able to select the packages from explorer", "Selecting the package"<br/>
+<a href="#Output-1775829753" onClick='toggleBox("Output-1775829753", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1775829753" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1775829753">
+Browser should be Launched and url is navigated<br/>
+pop is closed<br/>
+user is able to click on Holiday Packages link<br/>
+holidays package is opend<br/>
+User is on the Holidays package page<br/>
+User is clicked on Cruise Explorer<br/>
+</div>
+</td>
+<td></td>
+<td>8</td>
+<td>com.runners.CucumberRunner@38102d01</td></tr>
+<tr>
+<td title='com.runners.CucumberRunner.runScenario()'><b>runScenario</b><br>Test class: com.runners.CucumberRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate user is able to select package location from BookExplorer", "click BookExplorer"<br/>
+<a href="#Output-1905699057" onClick='toggleBox("Output-1905699057", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1905699057" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1905699057">
+Browser should be Launched and url is navigated<br/>
+pop is closed<br/>
+user is able to click on Holiday Packages link<br/>
+holidays package is opend<br/>
+User is on the Holidays package page<br/>
+Kerala Packages are displayed<br/>
+</div>
+</td>
+<td></td>
+<td>11</td>
+<td>com.runners.CucumberRunner@38102d01</td></tr>
+<tr>
+<td title='com.runners.CucumberRunner.runScenario()'><b>runScenario</b><br>Test class: com.runners.CucumberRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify user is able to select the packages from explorer", "Selecting the package"<br/>
+<a href="#Output-1182959658" onClick='toggleBox("Output-1182959658", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1182959658" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1182959658">
+Browser should be Launched and url is navigated<br/>
+pop is closed<br/>
+user is able to click on Holiday Packages link<br/>
+holidays package is opend<br/>
+User is on the Holidays package page<br/>
+User is clicked on Book Explorer<br/>
+</div>
+</td>
+<td></td>
+<td>7</td>
+<td>com.runners.CucumberRunner@38102d01</td></tr>
+<tr>
+<td title='com.runners.CucumberRunner.runScenario()'><b>runScenario</b><br>Test class: com.runners.CucumberRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify user is able to select the packages from explorer", "Selecting the package"<br/>
+<a href="#Output-713961699" onClick='toggleBox("Output-713961699", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-713961699" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-713961699">
+Browser should be Launched and url is navigated<br/>
+pop is closed<br/>
+user is able to click on Holiday Packages link<br/>
+holidays package is opend<br/>
+User is on the Holidays package page<br/>
+Kerala Packages are displayed<br/>
+</div>
+</td>
+<td></td>
+<td>9</td>
+<td>com.runners.CucumberRunner@38102d01</td></tr>
+<tr>
+<td title='com.runners.CucumberRunner.runScenario()'><b>runScenario</b><br>Test class: com.runners.CucumberRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify User is able to filter the packages", "Filters"<br/>
+<a href="#Output-831784708" onClick='toggleBox("Output-831784708", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-831784708" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-831784708">
+Browser should be Launched and url is navigated<br/>
+pop is closed<br/>
+user is able to click on Holiday Packages link<br/>
+holidays package is opend<br/>
+User is on the Holidays package page<br/>
+User is able enter the source in from Text Field<br/>
+User is able enter the destination in from Text Field<br/>
+date is selected from the excel<br/>
+clicked on Search button successfully<br/>
+with flight filter is applied<br/>
+price range is selected from the package<br/>
+filters are applied<br/>
+</div>
+</td>
+<td></td>
+<td>28</td>
+<td>com.runners.CucumberRunner@38102d01</td></tr>
+<tr>
+<td title='com.runners.CucumberRunner.runScenario()'><b>runScenario</b><br>Test class: com.runners.CucumberRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate user is able to select package location from BookExplorer", "click BookExplorer"<br/>
+<a href="#Output-1973053322" onClick='toggleBox("Output-1973053322", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1973053322" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1973053322">
+Browser should be Launched and url is navigated<br/>
+pop is closed<br/>
+user is able to click on Holiday Packages link<br/>
+holidays package is opend<br/>
+User is on the Holidays package page<br/>
+Goa Packages are displayed<br/>
+</div>
+</td>
+<td></td>
+<td>7</td>
+<td>com.runners.CucumberRunner@38102d01</td></tr>
+<tr>
+<td title='com.runners.CucumberRunner.runScenario()'><b>runScenario</b><br>Test class: com.runners.CucumberRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify User is able to see the room Details", "Adding activities to the package"<br/>
+<a href="#Output-1357663228" onClick='toggleBox("Output-1357663228", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1357663228" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1357663228">
+Browser should be Launched and url is navigated<br/>
+pop is closed<br/>
+user is able to click on Holiday Packages link<br/>
+holidays package is opend<br/>
+User is on the Holidays package page<br/>
+User is able enter the source in from Text Field<br/>
+User is able enter the destination in from Text Field<br/>
+date is selected from the excel<br/>
+clicked on Search button successfully<br/>
+Assistance popup is closed<br/>
+clicked on the image of package<br/>
+Sale popup is closed<br/>
+selected package with flight<br/>
+package details page is opened..<br/>
+clicking on the hotels<br/>
+Details of the room were displayed<br/>
+</div>
+</td>
+<td></td>
+<td>89</td>
+<td>com.runners.CucumberRunner@38102d01</td></tr>
+<tr>
+<td title='com.runners.CucumberRunner.runScenario()'><b>runScenario</b><br>Test class: com.runners.CucumberRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate user is able to select package location from BookExplorer", "click BookExplorer"<br/>
+<a href="#Output-716216643" onClick='toggleBox("Output-716216643", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-716216643" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-716216643">
+Browser should be Launched and url is navigated<br/>
+pop is closed<br/>
+user is able to click on Holiday Packages link<br/>
+holidays package is opend<br/>
+User is on the Holidays package page<br/>
+South India Packages are displayed<br/>
+</div>
+</td>
+<td></td>
+<td>7</td>
+<td>com.runners.CucumberRunner@38102d01</td></tr>
+<tr>
+<td title='com.runners.CucumberRunner.runScenario()'><b>runScenario</b><br>Test class: com.runners.CucumberRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify User ia able to remove flights from their package", "Adding activities to the package"<br/>
+<a href="#Output-688361522" onClick='toggleBox("Output-688361522", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-688361522" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-688361522">
+Browser should be Launched and url is navigated<br/>
+pop is closed<br/>
+user is able to click on Holiday Packages link<br/>
+holidays package is opend<br/>
+User is on the Holidays package page<br/>
+User is able enter the source in from Text Field<br/>
+User is able enter the destination in from Text Field<br/>
+date is selected from the excel<br/>
+clicked on Search button successfully<br/>
+Assistance popup is closed<br/>
+clicked on the image of package<br/>
+Sale popup is closed<br/>
+selected package with flight<br/>
+package details page is opened..<br/>
+clicking on the flights and transfer link<br/>
+removing the flight<br/>
+updating the package<br/>
+flight is removed from the package<br/>
+</div>
+</td>
+<td></td>
+<td>104</td>
+<td>com.runners.CucumberRunner@38102d01</td></tr>
+<tr>
+<td title='com.runners.CucumberRunner.runScenario()'><b>runScenario</b><br>Test class: com.runners.CucumberRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate user should be able to proceed to the payment", "Payment"<br/>
+<a href="#Output-1442882168" onClick='toggleBox("Output-1442882168", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1442882168" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1442882168">
+Browser should be Launched and url is navigated<br/>
+pop is closed<br/>
+user is able to click on Holiday Packages link<br/>
+holidays package is opend<br/>
+User is on the Holidays package page<br/>
+User is able enter the source in from Text Field<br/>
+User is able enter the destination in from Text Field<br/>
+date is selected from the excel<br/>
+clicked on Search button successfully<br/>
+selected package with flight<br/>
+payment Button is clicked<br/>
+traveller details were added successfully<br/>
+</div>
+</td>
+<td></td>
+<td>110</td>
+<td>com.runners.CucumberRunner@38102d01</td></tr>
+<tr>
+<td title='com.runners.CucumberRunner.runScenario()'><b>runScenario</b><br>Test class: com.runners.CucumberRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify user is able to select the packages from explorer", "Selecting the package"<br/>
+<a href="#Output-892135447" onClick='toggleBox("Output-892135447", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-892135447" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-892135447">
+Browser should be Launched and url is navigated<br/>
+pop is closed<br/>
+user is able to click on Holiday Packages link<br/>
+holidays package is opend<br/>
+User is on the Holidays package page<br/>
+User is clicked on Honeymoon Explorer<br/>
+</div>
+</td>
+<td></td>
+<td>15</td>
+<td>com.runners.CucumberRunner@38102d01</td></tr>
+</table><p>
+</body>
+</html>

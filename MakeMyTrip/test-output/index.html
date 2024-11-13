@@ -1,0 +1,740 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Default_suite" class="navigator-link">
+              <span class="suite-name border-failed">Default suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Default_suite" class="navigator-link ">
+                    <span>C:\Users\Y.Tejaswini\AppData\Local\Temp\testng-eclipse-1647673108\testng-customsuite.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Default_suite" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Default_suite" class="navigator-link ">
+                    <span>1 group</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Default_suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Default_suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Default_suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Default_suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">13 methods, 1 failed,   12 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Default_suite" class="hide-methods failed suite-Default_suite"> (hide)</a> <!-- hide-methods failed suite-Default_suite -->
+                      <a href="#" panel-name="suite-Default_suite" class="show-methods failed suite-Default_suite"> (show)</a> <!-- show-methods failed suite-Default_suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Default_suite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="com.runners.CucumberRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Verify user is able to see the all details of the packages available by scrolling&quot;, &quot;Sample&quot;)">runScenario("Verify user is able to see the all details of the packages available by scrolling", "Sample")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Default_suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Default_suite" class="hide-methods passed suite-Default_suite"> (hide)</a> <!-- hide-methods passed suite-Default_suite -->
+                      <a href="#" panel-name="suite-Default_suite" class="show-methods passed suite-Default_suite"> (show)</a> <!-- show-methods passed suite-Default_suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Default_suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="com.runners.CucumberRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Validate user is able to click on Holiday packages without flights&quot;, &quot;Holiday Packages&quot;)">runScenario("Validate user is able to click on Holiday packages without flights", "Holiday Packages")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="com.runners.CucumberRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Verify user is able to select the packages from explorer&quot;, &quot;Selecting the package&quot;)">runScenario("Verify user is able to select the packages from explorer", "Selecting the package")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="com.runners.CucumberRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Validate user is able to select package location from BookExplorer&quot;, &quot;click BookExplorer&quot;)">runScenario("Validate user is able to select package location from BookExplorer", "click BookExplorer")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="com.runners.CucumberRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Verify user is able to select the packages from explorer&quot;, &quot;Selecting the package&quot;)">runScenario("Verify user is able to select the packages from explorer", "Selecting the package")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="com.runners.CucumberRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Verify user is able to select the packages from explorer&quot;, &quot;Selecting the package&quot;)">runScenario("Verify user is able to select the packages from explorer", "Selecting the package")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="com.runners.CucumberRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Verify User is able to filter the packages&quot;, &quot;Filters&quot;)">runScenario("Verify User is able to filter the packages", "Filters")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="com.runners.CucumberRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Validate user is able to select package location from BookExplorer&quot;, &quot;click BookExplorer&quot;)">runScenario("Validate user is able to select package location from BookExplorer", "click BookExplorer")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="com.runners.CucumberRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Verify User is able to see the room Details&quot;, &quot;Adding activities to the package&quot;)">runScenario("Verify User is able to see the room Details", "Adding activities to the package")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="com.runners.CucumberRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Validate user is able to select package location from BookExplorer&quot;, &quot;click BookExplorer&quot;)">runScenario("Validate user is able to select package location from BookExplorer", "click BookExplorer")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="com.runners.CucumberRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Verify User ia able to remove flights from their package&quot;, &quot;Adding activities to the package&quot;)">runScenario("Verify User ia able to remove flights from their package", "Adding activities to the package")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="com.runners.CucumberRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Validate user should be able to proceed to the payment&quot;, &quot;Payment&quot;)">runScenario("Validate user should be able to proceed to the payment", "Payment")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="com.runners.CucumberRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Verify user is able to select the packages from explorer&quot;, &quot;Selecting the package&quot;)">runScenario("Verify user is able to select the packages from explorer", "Selecting the package")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Default_suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Default_suite" class="panel Default_suite">
+          <div class="suite-Default_suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.runners.CucumberRunner</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Verify user is able to see the all details of the packages available by scrolling&quot;, &quot;Sample&quot;)">
+                  </a> <!-- runScenario("Verify user is able to see the all details of the packages available by scrolling", "Sample") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Verify user is able to see the all details of the packages available by scrolling","Sample")</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertTrue(Assert.java:57)
+	at org.testng.Assert.assertTrue(Assert.java:67)
+	at com.stepDefinition.Sample.scroll_down_untill_user_is_reached_to_the_details_of_all_packages(Sample.java:56)
+	at ✽.scroll down untill user is reached to the details of all packages(file:///C:/Users/Y.Tejaswini/git/repository3/MakeMyTrip/./src/test/resources/featureFiles/Sample.feature:9)
+
+</div> <!-- stack-trace -->
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Default_suite-class-failed -->
+          <div class="suite-Default_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.runners.CucumberRunner</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Validate user is able to click on Holiday packages without flights&quot;, &quot;Holiday Packages&quot;)">
+                  </a> <!-- runScenario("Validate user is able to click on Holiday packages without flights", "Holiday Packages") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Validate user is able to click on Holiday packages without flights","Holiday Packages")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Verify user is able to select the packages from explorer&quot;, &quot;Selecting the package&quot;)">
+                  </a> <!-- runScenario("Verify user is able to select the packages from explorer", "Selecting the package") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Verify user is able to select the packages from explorer","Selecting the package")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Validate user is able to select package location from BookExplorer&quot;, &quot;click BookExplorer&quot;)">
+                  </a> <!-- runScenario("Validate user is able to select package location from BookExplorer", "click BookExplorer") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Validate user is able to select package location from BookExplorer","click BookExplorer")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Verify user is able to select the packages from explorer&quot;, &quot;Selecting the package&quot;)">
+                  </a> <!-- runScenario("Verify user is able to select the packages from explorer", "Selecting the package") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Verify user is able to select the packages from explorer","Selecting the package")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Verify user is able to select the packages from explorer&quot;, &quot;Selecting the package&quot;)">
+                  </a> <!-- runScenario("Verify user is able to select the packages from explorer", "Selecting the package") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Verify user is able to select the packages from explorer","Selecting the package")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Verify User is able to filter the packages&quot;, &quot;Filters&quot;)">
+                  </a> <!-- runScenario("Verify User is able to filter the packages", "Filters") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Verify User is able to filter the packages","Filters")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Validate user is able to select package location from BookExplorer&quot;, &quot;click BookExplorer&quot;)">
+                  </a> <!-- runScenario("Validate user is able to select package location from BookExplorer", "click BookExplorer") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Validate user is able to select package location from BookExplorer","click BookExplorer")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Verify User is able to see the room Details&quot;, &quot;Adding activities to the package&quot;)">
+                  </a> <!-- runScenario("Verify User is able to see the room Details", "Adding activities to the package") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Verify User is able to see the room Details","Adding activities to the package")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Validate user is able to select package location from BookExplorer&quot;, &quot;click BookExplorer&quot;)">
+                  </a> <!-- runScenario("Validate user is able to select package location from BookExplorer", "click BookExplorer") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Validate user is able to select package location from BookExplorer","click BookExplorer")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Verify User ia able to remove flights from their package&quot;, &quot;Adding activities to the package&quot;)">
+                  </a> <!-- runScenario("Verify User ia able to remove flights from their package", "Adding activities to the package") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Verify User ia able to remove flights from their package","Adding activities to the package")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Validate user should be able to proceed to the payment&quot;, &quot;Payment&quot;)">
+                  </a> <!-- runScenario("Validate user should be able to proceed to the payment", "Payment") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Validate user should be able to proceed to the payment","Payment")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Verify user is able to select the packages from explorer&quot;, &quot;Selecting the package&quot;)">
+                  </a> <!-- runScenario("Verify user is able to select the packages from explorer", "Selecting the package") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Verify user is able to select the packages from explorer","Selecting the package")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Default_suite-class-passed -->
+        </div> <!-- panel Default_suite -->
+        <div panel-name="test-xml-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\Y.Tejaswini\AppData\Local\Temp\testng-eclipse-1647673108\testng-customsuite.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Default suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Default test&quot; verbose=&quot;2&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.runners.CucumberRunner&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Default test --&gt;
+&lt;/suite&gt; &lt;!-- Default suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Default test (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="test-group">
+              <span class="test-group-name">cucumber</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">runScenario</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Default_suite');
+function tableData_Default_suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(13);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'runScenario')
+data.setCell(0, 2, 'com.runners.CucumberRunner')
+data.setCell(0, 3, 110699);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'runScenario')
+data.setCell(1, 2, 'com.runners.CucumberRunner')
+data.setCell(1, 3, 104373);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'runScenario')
+data.setCell(2, 2, 'com.runners.CucumberRunner')
+data.setCell(2, 3, 89774);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'runScenario')
+data.setCell(3, 2, 'com.runners.CucumberRunner')
+data.setCell(3, 3, 88209);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'runScenario')
+data.setCell(4, 2, 'com.runners.CucumberRunner')
+data.setCell(4, 3, 38840);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'runScenario')
+data.setCell(5, 2, 'com.runners.CucumberRunner')
+data.setCell(5, 3, 28666);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'runScenario')
+data.setCell(6, 2, 'com.runners.CucumberRunner')
+data.setCell(6, 3, 15812);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'runScenario')
+data.setCell(7, 2, 'com.runners.CucumberRunner')
+data.setCell(7, 3, 11767);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'runScenario')
+data.setCell(8, 2, 'com.runners.CucumberRunner')
+data.setCell(8, 3, 9076);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'runScenario')
+data.setCell(9, 2, 'com.runners.CucumberRunner')
+data.setCell(9, 3, 8159);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'runScenario')
+data.setCell(10, 2, 'com.runners.CucumberRunner')
+data.setCell(10, 3, 7990);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'runScenario')
+data.setCell(11, 2, 'com.runners.CucumberRunner')
+data.setCell(11, 3, 7773);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'runScenario')
+data.setCell(12, 2, 'com.runners.CucumberRunner')
+data.setCell(12, 3, 7423);
+window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 8 minutes</span>
+              <div id="times-div-Default_suite">
+              </div> <!-- times-div-Default_suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">runScenario("Validate user is able to click on Holiday packages without flights", "Holiday Packages")</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Browser should be Launched and url is navigated</span>
+                <span class="reporter-method-output">pop is closed</span>
+                <span class="reporter-method-output">user is able to click on Holiday Packages link</span>
+                <span class="reporter-method-output">holidays package is opend</span>
+                <span class="reporter-method-output">User is on the Holidays package page</span>
+                <span class="reporter-method-output">User is able enter the source in from Text Field</span>
+                <span class="reporter-method-output">User is able enter the destination in from Text Field</span>
+                <span class="reporter-method-output">date is selected from the excel</span>
+                <span class="reporter-method-output">clicked on Search button successfully</span>
+                <span class="reporter-method-output">selected package with flight</span>
+                <span class="reporter-method-output">popup is handled</span>
+                <span class="reporter-method-output">Browser should be closed</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">runScenario("Verify user is able to select the packages from explorer", "Selecting the package")</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Browser should be Launched and url is navigated</span>
+                <span class="reporter-method-output">pop is closed</span>
+                <span class="reporter-method-output">user is able to click on Holiday Packages link</span>
+                <span class="reporter-method-output">holidays package is opend</span>
+                <span class="reporter-method-output">User is on the Holidays package page</span>
+                <span class="reporter-method-output">User is clicked on Cruise Explorer</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">runScenario("Validate user is able to select package location from BookExplorer", "click BookExplorer")</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Browser should be Launched and url is navigated</span>
+                <span class="reporter-method-output">pop is closed</span>
+                <span class="reporter-method-output">user is able to click on Holiday Packages link</span>
+                <span class="reporter-method-output">holidays package is opend</span>
+                <span class="reporter-method-output">User is on the Holidays package page</span>
+                <span class="reporter-method-output">Kerala Packages are displayed</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">runScenario("Verify user is able to select the packages from explorer", "Selecting the package")</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Browser should be Launched and url is navigated</span>
+                <span class="reporter-method-output">pop is closed</span>
+                <span class="reporter-method-output">user is able to click on Holiday Packages link</span>
+                <span class="reporter-method-output">holidays package is opend</span>
+                <span class="reporter-method-output">User is on the Holidays package page</span>
+                <span class="reporter-method-output">User is clicked on Book Explorer</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">runScenario("Verify user is able to select the packages from explorer", "Selecting the package")</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Browser should be Launched and url is navigated</span>
+                <span class="reporter-method-output">pop is closed</span>
+                <span class="reporter-method-output">user is able to click on Holiday Packages link</span>
+                <span class="reporter-method-output">holidays package is opend</span>
+                <span class="reporter-method-output">User is on the Holidays package page</span>
+                <span class="reporter-method-output">Kerala Packages are displayed</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">runScenario("Verify User is able to filter the packages", "Filters")</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Browser should be Launched and url is navigated</span>
+                <span class="reporter-method-output">pop is closed</span>
+                <span class="reporter-method-output">user is able to click on Holiday Packages link</span>
+                <span class="reporter-method-output">holidays package is opend</span>
+                <span class="reporter-method-output">User is on the Holidays package page</span>
+                <span class="reporter-method-output">User is able enter the source in from Text Field</span>
+                <span class="reporter-method-output">User is able enter the destination in from Text Field</span>
+                <span class="reporter-method-output">date is selected from the excel</span>
+                <span class="reporter-method-output">clicked on Search button successfully</span>
+                <span class="reporter-method-output">with flight filter is applied</span>
+                <span class="reporter-method-output">price range is selected from the package</span>
+                <span class="reporter-method-output">filters are applied</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">runScenario("Validate user is able to select package location from BookExplorer", "click BookExplorer")</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Browser should be Launched and url is navigated</span>
+                <span class="reporter-method-output">pop is closed</span>
+                <span class="reporter-method-output">user is able to click on Holiday Packages link</span>
+                <span class="reporter-method-output">holidays package is opend</span>
+                <span class="reporter-method-output">User is on the Holidays package page</span>
+                <span class="reporter-method-output">Goa Packages are displayed</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">runScenario("Verify User is able to see the room Details", "Adding activities to the package")</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Browser should be Launched and url is navigated</span>
+                <span class="reporter-method-output">pop is closed</span>
+                <span class="reporter-method-output">user is able to click on Holiday Packages link</span>
+                <span class="reporter-method-output">holidays package is opend</span>
+                <span class="reporter-method-output">User is on the Holidays package page</span>
+                <span class="reporter-method-output">User is able enter the source in from Text Field</span>
+                <span class="reporter-method-output">User is able enter the destination in from Text Field</span>
+                <span class="reporter-method-output">date is selected from the excel</span>
+                <span class="reporter-method-output">clicked on Search button successfully</span>
+                <span class="reporter-method-output">Assistance popup is closed</span>
+                <span class="reporter-method-output">clicked on the image of package</span>
+                <span class="reporter-method-output">Sale popup is closed</span>
+                <span class="reporter-method-output">selected package with flight</span>
+                <span class="reporter-method-output">package details page is opened..</span>
+                <span class="reporter-method-output">clicking on the hotels</span>
+                <span class="reporter-method-output">Details of the room were displayed</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">runScenario("Validate user is able to select package location from BookExplorer", "click BookExplorer")</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Browser should be Launched and url is navigated</span>
+                <span class="reporter-method-output">pop is closed</span>
+                <span class="reporter-method-output">user is able to click on Holiday Packages link</span>
+                <span class="reporter-method-output">holidays package is opend</span>
+                <span class="reporter-method-output">User is on the Holidays package page</span>
+                <span class="reporter-method-output">South India Packages are displayed</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">runScenario("Verify User ia able to remove flights from their package", "Adding activities to the package")</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Browser should be Launched and url is navigated</span>
+                <span class="reporter-method-output">pop is closed</span>
+                <span class="reporter-method-output">user is able to click on Holiday Packages link</span>
+                <span class="reporter-method-output">holidays package is opend</span>
+                <span class="reporter-method-output">User is on the Holidays package page</span>
+                <span class="reporter-method-output">User is able enter the source in from Text Field</span>
+                <span class="reporter-method-output">User is able enter the destination in from Text Field</span>
+                <span class="reporter-method-output">date is selected from the excel</span>
+                <span class="reporter-method-output">clicked on Search button successfully</span>
+                <span class="reporter-method-output">Assistance popup is closed</span>
+                <span class="reporter-method-output">clicked on the image of package</span>
+                <span class="reporter-method-output">Sale popup is closed</span>
+                <span class="reporter-method-output">selected package with flight</span>
+                <span class="reporter-method-output">package details page is opened..</span>
+                <span class="reporter-method-output">clicking on the flights and transfer link</span>
+                <span class="reporter-method-output">removing the flight</span>
+                <span class="reporter-method-output">updating the package</span>
+                <span class="reporter-method-output">flight is removed from the package</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">runScenario("Validate user should be able to proceed to the payment", "Payment")</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Browser should be Launched and url is navigated</span>
+                <span class="reporter-method-output">pop is closed</span>
+                <span class="reporter-method-output">user is able to click on Holiday Packages link</span>
+                <span class="reporter-method-output">holidays package is opend</span>
+                <span class="reporter-method-output">User is on the Holidays package page</span>
+                <span class="reporter-method-output">User is able enter the source in from Text Field</span>
+                <span class="reporter-method-output">User is able enter the destination in from Text Field</span>
+                <span class="reporter-method-output">date is selected from the excel</span>
+                <span class="reporter-method-output">clicked on Search button successfully</span>
+                <span class="reporter-method-output">selected package with flight</span>
+                <span class="reporter-method-output">payment Button is clicked</span>
+                <span class="reporter-method-output">traveller details were added successfully</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">runScenario("Verify user is able to select the packages from explorer", "Selecting the package")</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Browser should be Launched and url is navigated</span>
+                <span class="reporter-method-output">pop is closed</span>
+                <span class="reporter-method-output">user is able to click on Holiday Packages link</span>
+                <span class="reporter-method-output">holidays package is opend</span>
+                <span class="reporter-method-output">User is on the Holidays package page</span>
+                <span class="reporter-method-output">User is clicked on Honeymoon Explorer</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">runScenario("Verify user is able to see the all details of the packages available by scrolling", "Sample")</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Browser should be Launched and url is navigated</span>
+                <span class="reporter-method-output">pop is closed</span>
+                <span class="reporter-method-output">user is able to click on Holiday Packages link</span>
+                <span class="reporter-method-output">holidays package is opend</span>
+                <span class="reporter-method-output">User is on the Holidays package page</span>
+                <span class="reporter-method-output">reached the Dubai package</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.runners.CucumberRunner</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUpClass(org.testng.TestRunner@3897f9ae)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Verify User ia able to remove flights from their package", "Adding activities to the package")</span>
+                <span class="method-start">456 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Verify User is able to see the room Details", "Adding activities to the package")</span>
+                <span class="method-start">104837 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Validate user is able to select package location from BookExplorer", "click BookExplorer")</span>
+                <span class="method-start">194612 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Validate user is able to select package location from BookExplorer", "click BookExplorer")</span>
+                <span class="method-start">202037 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Validate user is able to select package location from BookExplorer", "click BookExplorer")</span>
+                <span class="method-start">210029 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Verify User is able to filter the packages", "Filters")</span>
+                <span class="method-start">221799 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Validate user is able to click on Holiday packages without flights", "Holiday Packages")</span>
+                <span class="method-start">250466 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Validate user should be able to proceed to the payment", "Payment")</span>
+                <span class="method-start">338678 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">runScenario("Verify user is able to see the all details of the packages available by scrolling", "Sample")</span>
+                <span class="method-start">449379 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Verify user is able to select the packages from explorer", "Selecting the package")</span>
+                <span class="method-start">488221 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Verify user is able to select the packages from explorer", "Selecting the package")</span>
+                <span class="method-start">495996 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Verify user is able to select the packages from explorer", "Selecting the package")</span>
+                <span class="method-start">504156 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Verify user is able to select the packages from explorer", "Selecting the package")</span>
+                <span class="method-start">519971 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDownClass</span>
+                <span class="method-start">529129 ms</span>
+              </div> <!-- configuration-class after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>
